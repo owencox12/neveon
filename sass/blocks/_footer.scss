@@ -1,0 +1,123 @@
+.footer {
+    min-height: 300px;
+    background: #fff;
+    padding-bottom: 10px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 38px;
+        &_second {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &__item {
+        &_tel {
+            a {
+                font-family: 'Proxima Nova';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 100%;
+                color: #28292D;
+                text-decoration: none;
+            }
+        }
+        &_descr {
+            font-family: 'Proxima Nova';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 240%;
+            text-align: right;
+            color: #C0C0C0;
+        }
+    }
+    &__item {
+        &_menu {
+            display: flex;
+        }
+        &_block {
+            &_list {
+                margin: 0 30px;
+                &_type {
+                    a {
+                        font-family: 'Proxima Nova';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 250%;
+                        color: #28292D;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        &_text {
+            font-family: 'Proxima Nova';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 100%;
+            color: #28292D;
+            &:nth-child(1) {
+                margin-top: 15px;
+            }
+            &_second {
+                width: 300px;
+                margin-top: 20px;
+            }
+        }
+        &_link {
+            margin-top: 50px;
+            a {
+                font-family: 'Proxima Nova';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 240%;
+                color: #28292D;
+                border-bottom: 1px dotted #C9C9C9;
+            }
+        }
+        &_allgood {
+            font-family: 'Proxima Nova';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 240%;
+            color: #C0C0C0;
+            margin-top: 10px;
+        }
+    }
+    &__adress {
+        &_descr {
+            font-family: 'Proxima Nova';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: right;
+            color: #28292D;
+            margin-top: 18px;
+        }
+        &_text {
+            margin-top: 18px;
+            a {
+                font-family: 'Proxima Nova';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 240%;
+                text-align: right;
+                color: #28292D;
+                text-decoration: none;
+            }
+        }
+        &_logo {
+            text-align: right;
+            margin-top: 40px;
+        }
+    }
+    
+}

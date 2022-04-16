@@ -1,0 +1,22 @@
+.ceo {
+    border-bottom: 1px solid #28292D;
+    min-height: 441px;
+    &__title {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 100%;
+        color: #28292D;
+        padding-top: 78px;
+    }
+    &__descr {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 250%;
+        color: #28292D;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,47 @@
+.main {
+    background: url(../../image/mainBG.png) center center / cover no-repeat;
+    padding-bottom: 133px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 89px;
+    }
+    &__item {
+        &_image {
+            img {
+                width: 650px;
+            }
+        }
+        &_title {
+            font-family: 'Proxima Nova';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 70px;
+            line-height: 100%;
+            color: #F19217;
+            span {
+                color: #000;
+                font-size: 35px;
+            }
+        }
+        &_block {
+            display: flex;
+            align-items: center;
+            &_divider {
+                width: 30px;
+                height: 2px;
+                background: #F19217;
+            }
+            &_descr {
+                margin-left: 27px;
+                font-family: 'Proxima Nova';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 125%;
+                color: #28292D;
+                width: 400px;
+            }
+        }
+    }
+}

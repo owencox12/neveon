@@ -1,0 +1,93 @@
+.header {
+    min-height: 155px;
+    border-bottom: 1px solid #E5E5E5;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 31px;
+    }
+    &__burger_list {
+        display: none;
+    }
+    &__burger {
+        display: none;
+    }
+    &__item {
+        &:nth-child(2) {
+            display: flex;
+        }
+        &_block {
+            display: flex;
+            align-items: center;
+            &:nth-child(1) {
+                margin-right: 54px;
+            }
+            &_text {
+                width: 163px;
+            }
+            &_image {
+                margin-right: 30px;
+            }
+            &_descr {
+                font-family: 'Proxima Nova';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 140%;
+                text-align: right;
+                color: #28292D;
+            }
+            &_tel {
+                a {
+                    font-family: 'Proxima Nova';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 100%;
+                    color: #28292D;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    &__inner {
+        margin-top: 30px;
+        border-top: 1px solid #E5E5E5;
+        &_wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+        &_item {
+            width: 100%;
+            text-align: center;
+            height: 50px;
+            border: 1px solid #E5E5E5;
+            cursor: pointer;
+            transition: all .3s;
+            &:hover {
+                border-top: 1px solid #F39B14;
+                transition: all .3s;
+            }
+            a {
+                font-family: 'Proxima Nova';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 100%;
+                color: #28292D;
+                text-decoration: none;
+                &:hover {
+                    font-family: 'Proxima Nova';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 100%;
+                    color: #F39B14;
+                }
+            }
+            &_link {
+                margin-top: 15px;
+            }
+        }
+    }
+}

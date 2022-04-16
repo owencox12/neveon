@@ -1,0 +1,82 @@
+.slider {
+    min-height: 1700px;
+    padding-top: 120px;
+    padding-bottom: 84px;
+    position: relative;
+    &__title {
+        margin-bottom: 40px;
+        &_second {
+            padding-top: 120px;
+        }
+    }
+    &__button {
+        text-align: center;
+        margin-top: 40px;
+        &_second {
+            margin-top: 90px;
+        }
+    }
+    &__right {
+        position: absolute;
+        right: 134px;
+        top: 27%;
+        cursor: pointer;
+    }
+    &__left {
+        position: absolute;
+        left: 134px;
+        top: 27%;
+        cursor: pointer;
+    }
+    &__item {
+        margin-top: 80px;
+        &_block {
+            &_title {
+                font-family: 'Proxima Nova';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 24px;
+                color: #28292D;
+                margin-top: 28px;
+            }
+            &_descr {
+                font-family: 'Proxima Nova';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 180%;
+                color: #28292D;
+                width: 330px;
+                margin-top: 20px;
+            }
+            &_prices {
+                &_price {
+                    font-family: 'Proxima Nova';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #28292D;
+                }
+                display: flex;
+                // justify-content: space-between;
+                margin-top: 51px;
+                align-items: center;
+                &_button {
+                    margin-left: 70px;
+                }
+            }
+        }
+    }
+    &__left_second {
+        position: absolute;
+        left: 134px;
+        top: 75%;
+    }
+    &__right_second {
+        position: absolute;
+        right: 134px;
+        top: 75%;
+    }
+}

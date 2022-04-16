@@ -1,0 +1,36 @@
+.application {
+    min-height: 452px;
+    background: url(../../image/applicationbg.png) center center / cover no-repeat;
+    &__item {
+        padding-top: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_text {
+            font-family: 'Proxima Nova';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 150%;
+            color: #FFFFFF;
+            span {
+                font-weight: 700;
+            }
+        }
+        &_block {
+            &_tel {
+                margin-bottom: 30px;
+                margin-left: 30px;
+                a {
+                    font-family: 'Proxima Nova';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 48px;
+                    line-height: 100%;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

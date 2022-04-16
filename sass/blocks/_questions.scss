@@ -1,0 +1,56 @@
+.questions {
+    min-height: 402px;
+    background: url(../../image/form.png) center center / cover no-repeat;
+    &__title {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130%;
+        text-align: center;
+        color: #FFFFFF;
+        width: 600px;
+        margin: 0 auto;
+        padding-top: 68px;
+    }
+    &__form {
+        &_block {
+            text-align: center;
+            margin-top: 30px;
+            &_input {
+                input {
+                    width: 360px;
+                    height: 55px;
+                    border: 1px solid #FFFFFF;
+                    background: none;
+                    padding-left: 26px;
+                    margin: 0 15px;
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+    &__checkbox {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        input:checked  {
+            background-color: red;
+        }
+        &_text {
+            font-family: 'Proxima Nova';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 130%;
+            color: #FFFFFF;
+            width: 344px;
+            margin-left: 30px;
+        }
+    }
+}

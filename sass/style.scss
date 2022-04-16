@@ -1,0 +1,21 @@
+.container {
+    max-width: 1410px;
+    margin: 0 auto;
+}
+
+body.lock {
+    overflow: hidden
+}
+
+@import 'blocks/header';
+@import 'blocks/button';
+@import 'blocks/main';
+@import 'blocks/about';
+@import 'blocks/parolon';
+@import 'blocks/company';
+@import 'blocks/application';
+@import 'blocks/slider';
+@import 'blocks/questions';
+@import 'blocks/ceo';
+@import 'blocks/footer';
+@import 'blocks/media';
